@@ -1,0 +1,8 @@
+Create a class called Photoshop. Create a method inside the class called as open
+The method should take any subclass of WindowsFile class as argument. Create a class called WindowsFile and required subclasses like (JpegFile, PngFile, etc)
+
+WindowsFile class must have a method called as initializeProperties which is used to
+initialize the properties of the file.
+
+Each and every subclass of the WindowsFile class must contain its own implementation and
+methods
