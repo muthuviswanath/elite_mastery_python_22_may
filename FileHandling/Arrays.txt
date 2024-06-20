@@ -1,0 +1,13 @@
+TypeCode:
+i - signed integer (2 bytes)
+f - float (4 bytes)
+d - double (8 bytes)
+l - long (signed) (4 bytes)
+L - unsiged Long (4 bytes)
+h - Short (signed)(2 bytes)
+H - Short (unsigned)(2 bytes)
+u - unicode (2 bytes)
+B - char(unsigned)(1 byte)
+b - char(Signed) (1 byte)
+q - signed long (8 bytes)
+Q - Unsigned long (8 bytes)

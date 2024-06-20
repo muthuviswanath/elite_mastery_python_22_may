@@ -4,7 +4,7 @@ os.chdir('D:\\Conor')
 
 def get_folder_path(directory):
     paths = []
-    for root, directories, files in os.walk(directory):
+    for root,directories,files in os.walk(directory):
         for filename in files:
             filepath = os.path.join(root,filename)
             paths.append(filepath)
@@ -14,7 +14,6 @@ directory = "Old_Folder"
 paths = get_folder_path(directory)
 
 for file in paths:
-    print(file)
-    with ZipFile("Testing.zip",'a') as zip:
+    with ZipFile("Shreeya.zip",'a') as zip:
         zip.write(file)
 print('Successfully Zipped the files')
